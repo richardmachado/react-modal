@@ -103,5 +103,34 @@
 	background-image:-moz-linear-gradient(top, #D25068, #F66C7B);
 	background-image:-ms-linear-gradient(top, #D25068, #F66C7B);
 	background-image:-o-linear-gradient(top, #D25068, #F66C7B);
-	background-image:linear-gradient(top, #D25068, #F66C7B);
+	background-image:linear-gradient(to bottom, #D25068, #F66C7B);
 }
+
+.button-modal {
+	background-color: red;
+}
+
+.button3  {
+	display: inline-block;
+	padding: 0.3em 1.2em;
+	margin: 1rem 0.3em 0;
+	border-radius: 2em;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	color:#FFFFFF;
+	background-color: #4eb5f1;
+	text-align: center;
+	transition: all 0.2s;
+	}
+	.button3:hover{
+		background-color:#4095c6;
+		cursor: pointer;
+	}
+	@media all and (max-width: 30em){
+		.button3 {
+			display:block;
+			margin:0.2em auto	
+		}
+	}

@@ -19,7 +19,7 @@ function App() {
         </p>
 
 
-        <button onClick={() => modalRef.current.close()}>
+        <button className='button3' onClick={() => modalRef.current.close()}>
           Close Modal
         </button>
       </Modals>
